@@ -9,7 +9,8 @@ print("Press ctrl x to exit")
 
 
 while True:
- 
+  if(prompt=="\exit"):
+      break
   prompt = input("Enter your prompt:  ")
   prompt2 = prompts + stmt + prompt
   prompts += prompt
